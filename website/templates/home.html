@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR HOME PAGE</title>
+    <link rel='stylesheet' href='static/css/style.css'>
+    <style>
+
+        h1{
+            color: rgb(0,0,255)
+        }
+        h2{
+            color: rgb(0,0,255)
+        }
+        h3{
+            color: rgb(0,0,255)
+        }
+        p {
+  text-indent: 0px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+h4{
+  background: rgb(128,128,128);
+  padding: 20px;
+  color: #0f0324;
+}
+    </style>
+</head>
+<body>
+    <div class='navbar'>
+        <ul>
+            <li><a href="{{url_for('home')}}" class='active'>HOME</a></li>
+            <li><a href="{{url_for('salary')}}">SALARY</a></li>
+            <li><a href="{{url_for('dashboard')}}">DASHBOARD</a></li>  
+        </ul>
+    </div>
+    <div class="header">
+        <center><h1>HR Salary Prediction</h1></center>
+        <center><img src="/static/Image/hr.png" width="1450" height="600"></center>
+        <p>HR (Human Resources) refers to the department of individuals who manage the organisation of company employees and cultivate a positive company culture.</p>
+        <p>Some of the major reasons why people choose a career in HR is the opportunity to influence innumerable aspects of the organisation, to assist in the development of its employees, and to play a part in influencing strategic business decisions.</p>
+        <h3>4 Reasons to Work in Human Resources</h3>
+        <h4>1. Variety</h4>
+        <h4>2. Flexibility</h4>
+        <h4>3. Growth Potential</h4>
+        <h4>4. Meaningful Work</h4>
+        <h3>What do HR professionals do?</h3>
+        <p>HR professionals take on a “variety” of roles and tasks that affect organizational outcomes by managing the most valuable business asset: people.</p>
+        <p>Workers at all levels contribute to their employer’s sustainability and profitability. In effectively managing this human capital, organizations are increasingly recognizing that human resources needs to be both administrative and strategic.</p>
+        <p>Human resources management oversees and executes on the recruiting, hiring, training, compensation and benefits. Depending on the size of an organization, dedicated compensation and benefits specialists or managers may develop and manage the benefits packages and payment structures of the entire organization.</p>
+        <p>All members of a human resources team or department connect the value of human capital to the company’s bottom line. They are adept at dealing with people from all backgrounds and levels of experience, knowledge, and skill. Some of the required attributes to succeed in HR include flexibility, patience, attention to detail, outstanding communication and listening skills, negotiation skills and professional discretion.</p>
+        <p>Most HR professionals choose between two broad paths: generalist or specialist.</p>
+        <p># Generalist – Human resources generalists often perform a wide variety of tasks. They do recruit, hiring, training and development, compensation and planning. They often develop personnel policies and ensure that the organization is in compliance with all federal, state and local labor laws.  Job titles held by HR generalists include HR assistant, HR manager, and chief HR officer.</p>
+        <p># Specialist – Human resources specialists typically work in larger organizations. Compared to generalists, they have a higher level of technical skill and knowledge in specialized areas, such as workforce planning, HR development, rewards, employee and labor relations, and risk management. Specialized job titles or areas within HR may include recruiter, retention specialist, compensation specialist, labor relations manager, safety officer, risk management specialist, benefits analyst, and trainer.</p>
+    </div>
+    
+</body>
+</html>

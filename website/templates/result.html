@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALARY</title>
+    <link rel='stylesheet' href='/static/css/style.css'>
+<style>
+    h2{
+        padding-left: 550px;
+        padding-top: 0px;
+        margin: 50px;
+        font: 'Lucida Sans';
+        position: center;
+        color: rgb(4, 4, 31)
+    }
+    .head{
+        padding-left: 550px;
+        padding-top: 100px;
+        margin: 100px;
+        font: 'Lucida Sans';
+        position: center;
+        color: rgb(255,255,255)
+    }
+    body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+</style>
+</head>
+<body background="/static/Image/rs.jpg">
+    <div class='navbar'>
+        <ul>
+            <li><a href="{{url_for('home')}}" class='active'>HOME</a></li>
+            <li><a href="{{url_for('salary')}}">SALARY</a></li>
+            <li><a href="{{url_for('dashboard')}}">DASHBOARD</a></li>  
+        </ul>
+    </div>
+
+<div class="head">
+    <h3>[0]: <=50K </h3>
+    <h3>[1]: >50K </h3>
+</div>
+<script>
+console.log('its result page')
+</script>
+<h2 id='result'>{{prediction_text}}</h2>
+    
+</body>
+</html>
